@@ -181,7 +181,7 @@ Each risk should include:
 - Target completion date.
 - Status.
 
-Risk ratings should be reviewed at least every six months or after a significant incident, system change, supplier change, or business change.
+*Risk ratings should be reviewed at least every six months or after a significant incident, system change, supplier change, or business change.*
 
 ## 11. Risk Ownership
 Cyber risks must have clear business ownership. Risk ownership does not mean the risk owner personally fixes every issue. It means the owner is accountable for understanding the risk, making decisions, requesting support, and ensuring treatment actions are tracked.
