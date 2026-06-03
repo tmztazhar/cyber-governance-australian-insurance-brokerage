@@ -62,3 +62,6 @@ This document uses a RACI model.
 | Manage backup configuration | I | C | A/R | C | C | C | C | I | I |
 | Test backup recovery | I | A | R | C | C | C | C | I | I |
 | Report suspected security incident | I | I | I | I | I | I | I | R | I |
+| Triage reported security incident | I | A/R | C | C | C | C | C | I | C |
+| Contain technical security incident | I | A | R | C | C | C | C | I | I |
+| Decide customer, legal, or regulatory escalation | A | R | C | C | C | C | C | I | C |
