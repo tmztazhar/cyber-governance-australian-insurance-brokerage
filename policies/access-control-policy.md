@@ -98,3 +98,222 @@ Example role-based access model:
 | External Compliance Consultant | Limited access to compliance documents or evidence when required. |
 
 Access should be adjusted if an employee changes role.
+
+## 8. Privileged Access
+Privileged access includes administrator, owner, super user, or high-risk access that can change system settings, user permissions, security controls, or sensitive data.
+
+Privileged access requirements include:
+- Privileged access must be limited to authorised users only.
+- Privileged access must be approved by the Managing Director or Operations Manager.
+- Privileged accounts must use multi-factor authentication where supported.
+- Privileged accounts should not be used for normal daily work where separate standard accounts are available.
+- External IT provider administrator access must be documented.
+- Privileged access should be reviewed at least every six months.
+- Privileged access must be removed immediately when no longer required.
+- Emergency privileged access should be documented and reviewed after use.
+
+Examples of privileged access include:
+- Microsoft 365 administrator.
+- SharePoint administrator.
+- CRM administrator.
+- Xero administrator.
+- WordPress administrator.
+- Domain or hosting administrator.
+- Backup administration access.
+
+## 9. Multi-Factor Authentication
+Multi-factor authentication must be used for critical business systems where supported.
+
+MFA should be enabled for:
+- Microsoft 365.
+- Insurance CRM.
+- Xero.
+- WordPress administrator accounts.
+- Remote access services.
+- Password manager.
+- Cloud storage.
+- Privileged administrator accounts.
+- Any system containing confidential or restricted information.
+
+Where MFA is not supported, the system owner must document the limitation and consider alternative controls, such as stronger passwords, restricted access, IP restrictions, or supplier review.
+
+## 10. Joiner, Mover, Leaver Process
+HarbourShield must manage access throughout the user lifecycle.
+
+### 10.1 Joiners
+When a new employee or contractor joins:
+- Access must be approved before account creation.
+- Access must match the person’s role.
+- MFA must be enabled for required systems where supported.
+- The user must receive basic security guidance.
+- Access to sensitive data must be limited to what is required.
+
+### 10.2 Movers
+When an employee changes role:
+- Existing access must be reviewed.
+- Access no longer required must be removed.
+- New access must be approved.
+- Access should match the new role.
+- Privileged access should not transfer automatically.
+
+### 10.3 Leavers
+When an employee, contractor, or third party leaves:
+- Access must be removed promptly.
+- Email and system accounts must be disabled or removed.
+- Shared passwords must be changed if the user had access to them.
+- Company devices must be returned.
+- External access must be revoked.
+- Insurer portal access must be removed.
+- Access removal should be recorded.
+
+For high-risk departures, access should be removed immediately.
+
+## 11. Contractor and Third-Party Access
+Contractors and third-party providers must only receive access required for their agreed work.
+
+Requirements include:
+- Third-party access must be approved.
+- Access must be time-limited where possible.
+- Access must be removed when the work is completed.
+- Third-party users must use MFA where supported.
+- Third-party access to sensitive information must be minimised.
+- Outsourced IT provider access must be documented and reviewed.
+- Third parties must not share HarbourShield credentials with other personnel.
+
+## 12. Shared Accounts
+Shared accounts should be avoided because they reduce accountability.
+
+If a shared account is unavoidable:
+- The business reason must be documented.
+- The account owner must be identified.
+- Access must be limited to authorised users only.
+- The password must be changed when authorised users leave.
+- MFA should be enabled where possible.
+- Shared account use should be reviewed periodically.
+- Shared accounts must not be used for privileged access unless no alternative exists.
+
+## 13. Remote Access
+Remote access must be controlled to reduce the risk of unauthorised access.
+
+Remote access requirements include:
+- Remote access must only be used by authorised users.
+- MFA must be enabled where supported.
+- Users must avoid accessing sensitive information from public or shared devices.
+- Company devices should be used where available.
+- Users must protect devices from unauthorised viewing or use.
+- Lost or stolen devices must be reported immediately.
+- Sensitive information must not be downloaded to unmanaged personal devices unless approved.
+
+## 14. Access Review
+Access to key systems must be reviewed at least every six months.
+
+Access reviews should include:
+- Active users.
+- Former employees or contractors.
+- Users with privileged access.
+- External users.
+- Shared accounts.
+- Users with access to confidential or restricted information.
+- Insurer portal accounts.
+- Finance system access.
+- WordPress administrator access.
+
+The review should confirm whether access is still required, appropriate, and approved.
+
+Example access review fields:
+| Review Field | Description |
+| --- | --- |
+| System | System being reviewed. |
+| User | Name or account reviewed. |
+| Role | User’s current business role. |
+| Access Level | Type of access assigned. |
+| Still Required? | Yes or No. |
+| Action Required | Keep, modify, or remove access. |
+| Reviewer | System owner or Operations Manager. |
+| Review Date | Date review was completed. |
+
+## 15. Logging and Monitoring
+Where supported by the system, access activity should be logged and reviewed when required.
+
+Logging should support investigation of:
+- Failed login attempts.
+- Suspicious sign-in locations.
+- Privileged account use.
+- Changes to user permissions.
+- External sharing activity.
+- Unusual data access.
+- Security incidents.
+
+The outsourced IT provider should assist with reviewing relevant logs during suspected security incidents.
+
+## 16. Access Removal
+Access must be removed when it is no longer required.
+
+Access removal may be required when:
+- An employee leaves the business.
+- A contractor finishes work.
+- A staff member changes role.
+- A supplier relationship ends.
+- A system is retired.
+- A user no longer requires access.
+- A security incident occurs.
+
+Access removal must be recorded for important systems.
+
+## 17. Policy Exceptions
+Exceptions to this policy must be documented and approved.
+
+Examples of access control exceptions include:
+- A legacy system does not support MFA.
+- A system requires a shared account.
+- Temporary emergency administrator access is needed.
+- A third party requires short-term elevated access.
+
+Exceptions must include:
+- Business reason.
+- Risk description.
+- Compensating controls.
+- Approval owner.
+- Expiry or review date.
+
+## 18. Roles and Responsibilities
+| Role | Responsibility |
+| --- | --- |
+| Managing Director | Approves high-risk access decisions and accepts residual access risks where required. |
+| Operations Manager | Coordinates access governance, access reviews, onboarding, offboarding, and policy enforcement. |
+| System Owner | Approves and reviews access for their system. |
+| Outsourced IT Provider | Creates, modifies, disables, and supports user accounts and technical access controls. |
+| Employees | Use access responsibly, protect credentials, and report suspicious access activity. |
+| External Compliance Consultant | Provides advice where access issues relate to privacy, breach notification, or regulatory concerns. |
+
+## 19. Related Documents
+This policy should be read together with:
+- Information Security Policy.
+- Information Security Governance Charter.
+- Roles and Responsibilities Matrix.
+- Information Asset Register.
+- Cyber Risk Register.
+- Password and MFA Policy.
+- Data Classification Policy.
+- Incident Response Plan.
+- Third-Party Security Review Checklist.
+
+## 20. Review Cycle
+This policy should be reviewed:
+- At least annually.
+- After a significant access-related security incident.
+- After a major system change.
+- After onboarding a critical supplier.
+- When access responsibilities change.
+- When relevant legal, regulatory, or business requirements change.
+
+## 21. Approval
+| Role | Name | Approval Status | Date |
+| --- | --- | --- | --- |
+| Managing Director | Fictional | Approved for portfolio scenario | 2026 |
+| Operations Manager | Fictional | Reviewed for portfolio scenario | 2026 |
+
+## 22. Portfolio Note
+This document is part of a fictional cyber security governance portfolio project. It demonstrates practical access control policy development for an Australian SME insurance brokerage scenario.
+
+This document is not legal advice, compliance advice, or a complete ISO/IEC 27001 implementation.
