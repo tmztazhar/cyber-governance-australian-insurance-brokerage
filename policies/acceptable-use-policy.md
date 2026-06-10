@@ -1,6 +1,6 @@
 # Acceptable Use Policy
+## Project: Cyber Security Governance Framework for an Australian Insurance Brokerage
 
-### Project: Cyber Security Governance Framework for an Australian Insurance Brokerage
 ### Organisation: HarbourShield Insurance Brokers Pty Ltd
 ### Document Owner : Operations Manager
 ### Approved By : Managing Director
