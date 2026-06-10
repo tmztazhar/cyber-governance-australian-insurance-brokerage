@@ -236,3 +236,95 @@ Response actions may include:
 - Notifying the Managing Director if customer information may be affected.
 - Recording the incident in the incident register.
 
+## 16. MFA Exceptions
+Some systems may not support MFA or may only support weaker MFA options. MFA exceptions must be documented and approved.
+
+The exception record should include:
+- System name.
+- Business owner.
+- Reason MFA cannot be used.
+- Risk rating.
+- Compensating controls.
+- Approval owner.
+- Review date.
+
+Possible compensating controls include:
+- Stronger password requirements.
+- Restricted administrator access.
+- IP restrictions where available.
+- Reduced user access.
+- More frequent access reviews.
+- Supplier security review.
+- Monitoring for unusual activity.
+- Migration to a system that supports MFA.
+
+## 17. Joiner, Mover, Leaver Requirements
+Password and MFA controls must be included in the user lifecycle process.
+
+### 17.1 Joiners
+New users must:
+- Receive unique user accounts.
+- Set strong passwords or passphrases.
+- Enable MFA for required systems.
+- Receive basic security guidance.
+- Be warned not to share credentials.
+
+### 17.2 Movers
+When users change roles:
+- Access rights must be reviewed.
+- Privileged access must not be transferred automatically.
+- Password manager vault access must be reviewed.
+- Shared credential access must be reviewed.
+
+### 17.3 Leavers
+When users leave:
+- Accounts must be disabled or removed promptly.
+- Password manager access must be removed.
+- Shared passwords must be changed if the user had access to them.
+- MFA devices or methods linked to business systems must be removed where applicable.
+- External or insurer portal access must be removed.
+
+## 18. Employee Responsibilities
+Employees are responsible for protecting their credentials.
+
+Employees must:
+- Use strong passwords or passphrases.
+- Keep passwords confidential.
+- Use MFA where required.
+- Report suspicious login activity.
+- Report unexpected MFA prompts.
+- Avoid password reuse.
+- Avoid storing passwords insecurely.
+- Avoid sharing passwords with anyone.
+- Follow password reset instructions securely.
+
+## 19. Roles and Responsibilities
+| Role | Responsibility |
+| --- | --- |
+| Managing Director | Approves this policy and accepts high-risk exceptions where required. |
+| Operations Manager | Owns this policy, coordinates user awareness, access reviews, and exception tracking. |
+| Outsourced IT Provider | Supports MFA configuration, password resets, account lockout settings, and investigation of suspicious logins. |
+| System Owners | Confirm MFA and password requirements for systems they own. |
+| Employees | Protect credentials, use MFA, and report suspicious activity. |
+| Third Parties | Use strong authentication and follow HarbourShield access requirements. |
+
+## 20. Related Documents
+This policy should be read together with:
+- Information Security Policy.
+- Access Control Policy.
+- Acceptable Use Policy.
+- Data Classification Policy.
+- Incident Response Plan.
+- Cyber Risk Register.
+- Information Asset Register.
+- Roles and Responsibilities Matrix.
+
+## 21. Review Cycle
+This policy should be reviewed:
+- At least annually.
+- After a credential-related incident.
+- After a business email compromise incident.
+- After a major system or supplier change.
+- When new authentication technology is introduced.
+- When relevant legal, regulatory, or business requirements change.
+
