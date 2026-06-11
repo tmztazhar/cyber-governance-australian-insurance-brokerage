@@ -331,3 +331,14 @@ This policy should be reviewed:
 - After a major system or supplier change.
 - After significant changes to data handling processes.
 - When business, legal, regulatory, or technology requirements change.
+
+## 25. Approval
+| Role | Name | Date |
+| --- | --- | --- |
+| Managing Director | Fictional | Approved for portfolio scenario | 2026 |
+| Operations Manager | Fictional | Reviewed for portfolio scenario | 2026 |
+
+## 26. Portfolio Note
+This document is part of a fictional cyber security governance portfolio project. It demonstrates practical data classification and data handling policy development for an Australian SME insurance brokerage scenario.
+
+This document is not legal advice, compliance advice, or a complete ISO/IEC 27001 implementation.
