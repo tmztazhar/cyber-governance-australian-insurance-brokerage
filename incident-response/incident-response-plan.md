@@ -51,3 +51,79 @@ Examples include:
 - Supplier breach notification.
 - Unauthorised change to payment or bank account details.
 - Data deletion, corruption, or unauthorised file sharing.
+
+## 5. Incident Response Principles
+HarbourShield’s incident response approach is based on the following principles:
+
+| Principle | Description |
+| --- | --- |
+| Report early | Employees must report suspicious activity quickly, even if they are unsure. |
+| Contain first | The immediate priority is to limit further harm. |
+| Preserve evidence | Relevant logs, emails, screenshots, and records should be preserved where possible. |
+| Protect customers | Incidents involving customer information must be assessed carefully. |
+| Business-led response | Cyber incidents are business risks, not only IT issues. |
+| Clear escalation | Serious incidents must be escalated to the Managing Director. |
+| Practical response | Response actions should be realistic for an SME environment. |
+| Learn and improve | Lessons learned must be used to improve controls and awareness. |
+
+## 6. Incident Response Roles
+| Role | Responsibility |
+| --- | --- |
+| Managing Director | Accountable for major incident decisions, customer communication approval, regulatory escalation decisions, and risk acceptance. |
+| Operations Manager | Coordinates incident response, triage, documentation, escalation, communication, and post-incident review. |
+| Outsourced IT Provider | Provides technical investigation, containment, recovery, log review, account reset, malware removal, and system restoration support. |
+| System Owner | Provides business context, confirms affected data or users, and supports access or process decisions. |
+| Finance Manager | Supports incidents involving invoices, payment fraud, Xero, bank detail changes, or financial loss. |
+| Broker Team Lead | Supports incidents involving customer policy documents, insurer portals, client communications, or broker access. |
+| Marketing Coordinator | Supports incidents involving WordPress, website enquiry forms, public content, or website supplier coordination. |
+| Employees | Report suspected incidents promptly and follow instructions during incident response. |
+| External Compliance Consultant | Provides advice on privacy, breach notification, insurance, and regulatory considerations where required. |
+| External Legal Adviser | Provides legal advice where customer impact, contractual issues, or formal notification obligations may exist. |
+
+## 7. Incident Reporting
+Employees must report suspected or confirmed incidents as soon as possible.
+
+Incidents should be reported to:
+`Operations Manager` ---> `Outsourced IT Provider` ---> `Managing Director, where required`
+
+If the Operations Manager is unavailable, employees should contact the Managing Director or outsourced IT provider directly.
+
+Employees should not ignore, hide, delete, or attempt to fix serious incidents without guidance.
+
+## 8. Information to Include in an Incident Report
+When reporting an incident, employees should provide as much of the following information as possible:
+
+| Information Required | Example |
+| --- | --- |
+| Reporter name | Employee who noticed the issue |
+| Date and time noticed | When the issue was first identified |
+| System affected | Microsoft 365, CRM, Xero, laptop, WordPress |
+| Description | What happened or what looks suspicious |
+| People involved | User account, customer, supplier, or third party |
+| Information involved | Customer records, policy documents, invoices |
+| Actions already taken | Email reported, device disconnected, password changed |
+| Screenshots or evidence | Suspicious email, error message, alert |
+| Business impact | Unable to access system, possible data exposure |
+| Urgency | Low, Medium, High, Critical |
+
+## 9. Incident Severity Levels
+HarbourShield uses four severity levels.
+
+| Severity | Description | Example |
+| --- | --- | --- |
+| Low | Limited issue with little or no business or data impact. | Single phishing email reported and not clicked. |
+| Medium | Localised issue requiring investigation but limited business impact. | User clicked suspicious link but no compromise confirmed. |
+| High | Confirmed or likely compromise affecting sensitive information, business systems, or multiple users. | Mailbox compromise, customer data sent to wrong recipient, malware on company laptop. |
+| Critical | Major incident affecting critical systems, customer information, business continuity, ransomware, fraud, or public exposure. | Ransomware, CRM compromise, large customer data exposure, major supplier breach. |
+
+High and Critical incidents must be escalated to the Managing Director.
+
+## 10. Incident Response Phases
+HarbourShield follows seven incident response phases:
+1. Prepare
+2. Identify
+3. Triage and Assess
+4. Contain
+5. Eradicate
+6. Recover
+7. Review and Improve
