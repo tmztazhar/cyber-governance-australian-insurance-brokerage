@@ -127,3 +127,189 @@ HarbourShield follows seven incident response phases:
 5. Eradicate
 6. Recover
 7. Review and Improve
+
+## 11. Phase 1: Prepare
+Preparation activities reduce the likelihood and impact of incidents.
+
+Preparation includes:
+- Maintaining this Incident Response Plan.
+- Maintaining the Cyber Risk Register.
+- Maintaining the Information Asset Register.
+- Ensuring MFA is enabled for critical systems where supported.
+- Ensuring access reviews are performed periodically.
+- Ensuring important business information is backed up or recoverable.
+- Ensuring employees know how to report incidents.
+- Maintaining outsourced IT provider contact details.
+- Maintaining supplier support contact details.
+- Keeping security policies available to employees.
+- Conducting basic security awareness activities.
+
+## 12. Phase 2: Identify
+The purpose of this phase is to determine whether an unusual event may be a security incident.
+
+Possible detection sources include:
+- Employee reports.
+- Suspicious email reports.
+- Microsoft 365 alerts.
+- Antivirus or endpoint protection alerts.
+- Unusual login activity.
+- CRM or Xero access alerts.
+- Website alerts.
+- Supplier notifications.
+- Customer complaints.
+- Finance irregularities.
+- Unexpected MFA prompts.
+- Unusual file sharing or deletion activity.
+
+The Operations Manager should record the incident and involve the outsourced IT provider where technical investigation is required.
+
+## 13. Phase 3: Triage and Assess
+The purpose of triage is to understand the likely severity, impact, and required response.
+
+Triage questions include:
+1. What system, account, device, or information is affected?
+2. Is customer information involved?
+3. Is Confidential or Restricted information involved?
+4. Is the incident still active?
+5. Is there evidence of unauthorised access?
+6. Is there evidence of data loss, disclosure, deletion, or corruption?
+7. Are business operations disrupted?
+8. Are finance systems, invoices, or payment details affected?
+9. Is a third-party supplier involved?
+10. Does the incident require escalation to the Managing Director?
+11. Is external compliance or legal advice required?
+
+The Operations Manager should assign an initial severity rating and update it as more information becomes available.
+
+## 14. Phase 4: Contain
+Containment aims to stop the incident from spreading or causing further harm.
+
+Possible containment actions include:
+| Incident Type | Possible Containment Action |
+| --- | --- |
+| Phishing email | Remove email, block sender, warn users. |
+| Account compromise | Reset password, revoke sessions, enable or reset MFA, review mailbox rules. |
+| Lost laptop | Disable account access, locate or wipe device where possible, assess data exposure. |
+| Malware | Disconnect device, isolate from network, engage outsourced IT provider. |
+| Ransomware | Isolate affected systems, stop file synchronisation where appropriate, preserve evidence. |
+| Incorrect email recipient | Attempt recall where possible, contact recipient, request deletion, assess data involved. |
+| Website compromise | Disable affected plugin or admin account, take site offline if needed, restore clean version. |
+| Supplier breach | Confirm scope, affected data, supplier actions, and contractual notification details. |
+| Finance fraud | Stop payment where possible, verify bank details, escalate to finance and management. |
+
+Containment actions should be coordinated with the outsourced IT provider and relevant system owner.
+
+## 15. Phase 5: Eradicate
+Eradication removes the cause of the incident.
+
+Possible eradication actions include:
+- Remove malware from affected devices.
+- Delete malicious mailbox rules.
+- Remove unauthorised forwarding rules.
+- Disable unauthorised accounts.
+- Remove unauthorised access permissions.
+- Patch vulnerable software.
+- Remove unsafe browser extensions or plugins.
+- Disable compromised WordPress plugins or themes.
+- Reset compromised credentials.
+- Remove unauthorised external sharing links.
+- Work with suppliers to resolve platform-related issues.
+
+The outsourced IT provider should confirm when the technical cause has been addressed.
+
+## 16. Phase 6: Recover
+Recovery restores normal business operations safely.
+
+Recovery activities may include:
+- Restore access to affected accounts.
+- Restore deleted or corrupted files from available recovery options.
+- Rebuild affected laptops.
+- Restore WordPress from a clean backup.
+- Validate CRM, Xero, SharePoint, or OneDrive records.
+- Confirm affected users can work safely.
+- Monitor for recurring suspicious activity.
+- Confirm customer or business data integrity.
+- Communicate recovery status to management and affected users.
+
+Recovery should not begin until containment steps are complete and the risk of reinfection or repeated compromise is reduced.
+
+## 17. Phase 7: Review and Improve
+After High and Critical incidents, HarbourShield should complete a post-incident review.
+
+The review should identify:
+- What happened.
+- How the incident was detected.
+- What information, systems, or users were affected.
+- What worked well.
+- What did not work well.
+- Root cause or likely cause.
+- Business impact.
+- Customer or supplier impact.
+- Whether notifications were required.
+- Control gaps.
+- Lessons learned.
+- Improvement actions.
+- Action owners and due dates.
+
+Improvement actions should be added to the Cyber Risk Register, Treatment Plan, or security improvement tracker.
+
+## 18. Incident Escalation Criteria
+The Operations Manager must escalate an incident to the Managing Director if any of the following apply:
+- Customer personal information may be exposed.
+- Insurance policy documents or claims information may be exposed.
+- Finance systems, invoices, or payment details are affected.
+- Ransomware, malware, or system-wide compromise is suspected.
+- A privileged account may be compromised.
+- A third-party supplier reports a breach affecting HarbourShield.
+- Business operations are significantly disrupted.
+- The incident may require customer, insurer, legal, regulatory, or public communication.
+- The incident could cause reputational damage.
+- The incident is rated High or Critical.
+
+## 19. Communication Requirements
+Incident communication must be controlled, accurate, and approved.
+
+Communication principles:
+- Do not speculate.
+- Do not blame individuals during the initial response.
+- Do not publicly discuss incidents without approval.
+- Do not contact customers, insurers, regulators, or media without management approval.
+- Keep internal communication factual and limited to those who need to know.
+- Use approved communication channels where possible.
+- Record major decisions and communications.
+
+The Managing Director must approve external communications for serious incidents.
+
+## 20. External Notification Assessment
+Some incidents may require assessment for customer, supplier, insurer, regulatory, contractual, or legal notification.
+
+Notification assessment should consider:
+- Whether personal information was accessed, disclosed, lost, or misused.
+- Whether Confidential or Restricted information was involved.
+- Whether customer harm is possible.
+- Whether identity documents were involved.
+- Whether financial information or payment details were involved.
+- Whether insurer, supplier, or contractual notification obligations apply.
+- Whether external compliance or legal advice is required.
+- Whether cyber insurance notification is required, if applicable.
+
+The Managing Director should make notification decisions with support from the Operations Manager, external compliance consultant, legal adviser, and outsourced IT provider where required.
+
+## 21. Evidence Handling
+Incident evidence should be preserved where practical.
+
+Examples of evidence include:
+- Suspicious emails.
+- Email headers.
+- Screenshots.
+- Login logs.
+- Audit logs.
+- User reports.
+- File sharing records.
+- Endpoint alerts.
+- Website logs.
+- Supplier breach notices.
+- Copies of fraudulent invoices or payment requests.
+- Timeline of actions taken.
+
+Employees should not delete suspicious emails, files, or logs unless instructed by the Operations Manager or outsourced IT provider.
