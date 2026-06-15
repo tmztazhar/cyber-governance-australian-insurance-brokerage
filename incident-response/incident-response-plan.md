@@ -521,3 +521,14 @@ This plan should be reviewed:
 - After a major system or supplier change.
 - After changes to outsourced IT support arrangements.
 - When business, legal, regulatory, or technology requirements change.
+
+## 30. Approval
+| Role | Name | Date |
+| --- | --- | --- |
+| Managing Director | Fictional | Approved for portfolio scenario | 2026 |
+| Operations Manager | Fictional | Reviewed for portfolio scenario | 2026 |
+
+## 31. Portfolio Note
+This document is part of a fictional cyber security governance portfolio project. It demonstrates practical incident response planning for an Australian SME insurance brokerage scenario.
+
+This document is not legal advice, compliance advice, or a complete ISO/IEC 27001 implementation.
