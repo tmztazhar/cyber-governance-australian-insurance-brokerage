@@ -435,3 +435,89 @@ Response steps:
 7. Preserve fraudulent email or invoice evidence.
 8. Review payment approval process.
 9. Record the incident and improvement actions.
+
+## 24. Incident Closure
+An incident can be closed when:
+- The incident has been contained.
+- Recovery actions are complete.
+- Affected systems or accounts are stable.
+- Required internal and external decisions have been made.
+- Evidence and actions have been recorded.
+- Improvement actions have been assigned.
+- Management has been informed for High or Critical incidents.
+
+The Operations Manager is responsible for closing Low and Medium incidents. The Managing Director should approve closure of High and Critical incidents.
+
+## 25. Post-Incident Review Template
+For High and Critical incidents, the following review format should be used:
+
+| Review | Response |
+| --- | --- |
+| Incident ID |   |
+| Incident Type |   |
+| Date Detected |   |
+| Date Contained |   |
+| Date Recovered |   |
+| Systems Affected |   |
+| Date Affected |   |
+| Root Cause / Likely Cause |   |
+| Business Impact |   |
+| Customer Impact |   |
+| Actions Taken |   |
+| Notifications Considered |   |
+| What Worked Well |   |
+| What Did Not Work Well |   |
+| Lessons Learned |   |
+| Improvement Actions |   |
+| Action Owners |   |
+| Target Dates |   |
+| Closure Approval |   |
+
+## 26. Training and Awareness
+Employees should receive basic awareness on:
+- How to report incidents.
+- Phishing and business email compromise.
+- Unexpected MFA prompts.
+- Secure handling of customer information.
+- Accidental data disclosure.
+- Lost or stolen devices.
+- Ransomware warning signs.
+- Finance fraud warning signs.
+
+Awareness should be practical, short, and repeated periodically.
+
+## 27. Testing the Incident Response Plan
+This plan should be tested at least annually using a simple tabletop exercise.
+
+Example tabletop scenarios:
+- Broker mailbox compromise.
+- Customer policy document sent to wrong recipient.
+- Ransomware on a staff laptop.
+- CRM supplier breach notification.
+- Fraudulent bank detail change request.
+- WordPress website compromise.
+
+Testing should confirm whether employees understand reporting, escalation, communication, and decision-making responsibilities.
+
+## 28. Related Documents
+This plan should be read together with:
+- Information Security Policy.
+- Access Control Policy.
+- Acceptable Use Policy.
+- Password and MFA Policy.
+- Data Classification Policy.
+- Backup and Recovery Policy.
+- Information Security Governance Charter.
+- Roles and Responsibilities Matrix.
+- Information Asset Register.
+- Cyber Risk Register.
+- Third-Party Security Review Checklist.
+
+## 29. Review Cycle
+This plan should be reviewed:
+- At least annually.
+- After a High or Critical incident.
+- After a tabletop exercise.
+- After a major system or supplier change.
+- After changes to outsourced IT support arrangements.
+- When business, legal, regulatory, or technology requirements change.
