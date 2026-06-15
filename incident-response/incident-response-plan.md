@@ -313,3 +313,125 @@ Examples of evidence include:
 - Timeline of actions taken.
 
 Employees should not delete suspicious emails, files, or logs unless instructed by the Operations Manager or outsourced IT provider.
+
+## 22. Incident Log
+The Operations Manager should maintain an incident log.
+
+Minimum incident log fields:
+| Field | Description |
+| --- | --- |
+| Incident ID | Unique reference number. |
+| Date Reported | Date incident was reported. |
+| Reported By | Person who reported the incident. |
+| Incident Type | Phishing, account compromise, data disclosure, malware, supplier breach, etc. |
+| Affected System | Microsoft 365, CRM, Xero, laptop, WordPress, etc. |
+| Data Involved | Public, Internal, Confidential, Restricted. |
+| Severity | Low, Medium, High, Critical. |
+| Status | Open, Contained, Recovered, Closed. |
+| Owner | Person coordinating response. |
+| Actions Taken | Summary of response actions. |
+| Notifications Required? | Yes, No, Under Assessment. |
+| Closure Date | Date incident was closed. |
+| Lessons Learned | Improvements identified. |
+
+## 23. Common Incident Playbooks
+
+### 23.1 Phishing Email
+Response steps:
+1. Employee reports suspicious email.
+2. Operations Manager records the report.
+3. Outsourced IT provider reviews email if required.
+4. Confirm whether links or attachments were opened.
+5. Remove similar emails from other mailboxes where possible.
+6. Block sender or domain where appropriate.
+7. Warn staff if the campaign targets multiple users.
+8. Record the incident and close if no compromise occurred.
+
+### 23.2 Business Email Compromise
+Response steps:
+1. Reset the affected user’s password.
+2. Revoke active sessions where supported.
+3. Confirm MFA status.
+4. Review mailbox forwarding rules.
+5. Review mailbox delegation and suspicious rules.
+6. Review recent sent emails.
+7. Check whether customer, policy, claims, or finance information was accessed or sent.
+8. Notify the Managing Director if sensitive information or payment fraud is involved.
+9. Assess whether customer, insurer, supplier, or external notification is required.
+10. Record lessons learned and update controls.
+
+### 23.3 Lost or Stolen Laptop
+Response steps:
+1. Employee reports lost or stolen device immediately.
+2. Operations Manager records the incident.
+3. Outsourced IT provider disables or restricts account access if required.
+4. Attempt remote lock or wipe where available.
+5. Confirm whether the device was encrypted.
+6. Confirm whether sensitive information was stored locally.
+7. Assess whether customer or company information may be exposed.
+8. Replace or rebuild device if required.
+9. Record the incident and improvement actions.
+
+### 23.4 Ransomware or Malware
+Response steps:
+1. Disconnect affected device from the network where practical.
+2. Do not restart or wipe the device unless instructed.
+3. Notify the Operations Manager and outsourced IT provider immediately.
+4. Identify affected systems, files, and users.
+5. Contain affected accounts, devices, or file sync processes.
+6. Preserve relevant evidence.
+7. Determine whether data may have been accessed or exfiltrated.
+8. Restore from clean recovery options only after containment.
+9. Notify the Managing Director.
+10. Conduct a post-incident review.
+
+### 23.5 Accidental Data Disclosure
+Response steps:
+1. Employee reports the incorrect disclosure immediately.
+2. Identify what information was disclosed.
+3. Identify the recipient.
+4. Attempt to recall or recover the information where possible.
+5. Request deletion from the unintended recipient where appropriate.
+6. Assess classification of the information involved.
+7. Assess whether customer harm is possible.
+8. Escalate to Managing Director if Confidential or Restricted information is involved.
+9. Seek external compliance or legal advice where required.
+10. Record decision, actions, and lessons learned.
+
+### 23.6 Website Compromise
+Response steps:
+1. Marketing Coordinator or employee reports unusual website activity.
+2. Operations Manager records the incident.
+3. Outsourced IT provider or hosting provider investigates.
+4. Disable suspicious plugins, themes, or administrator accounts.
+5. Take site offline if required to prevent harm.
+6. Restore clean backup if necessary.
+7. Review WordPress administrator access.
+8. Update plugins, themes, and credentials.
+9. Check whether enquiry form data may have been affected.
+10. Record the incident and improvement actions.
+
+### 23.7 Supplier Breach Notification
+Response steps:
+1. Record supplier notification.
+2. Identify affected supplier and service.
+3. Confirm whether HarbourShield information is affected.
+4. Confirm what data types may be involved.
+5. Request incident details from the supplier.
+6. Confirm supplier containment and recovery actions.
+7. Assess customer, contractual, insurer, or regulatory notification requirements.
+8. Escalate to Managing Director.
+9. Engage external compliance or legal advice where required.
+10. Record supplier response and any improvement actions.
+
+### 23.8 Finance Fraud or Bank Detail Change Fraud
+Response steps:
+1. Finance Manager reports suspicious payment request or bank detail change.
+2. Do not process payment until verified.
+3. Confirm request through a separate trusted channel.
+4. Review email account activity if the request came by email.
+5. Notify Operations Manager and Managing Director.
+6. Contact bank or payment provider if payment was made.
+7. Preserve fraudulent email or invoice evidence.
+8. Review payment approval process.
+9. Record the incident and improvement actions.
