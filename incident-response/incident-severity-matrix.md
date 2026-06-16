@@ -210,3 +210,14 @@ This matrix should be reviewed:
 - After an incident response tabletop exercise.
 - After a major system or supplier change.
 - When business, legal, regulatory, or technology requirements change.
+
+## 15. Approval
+| Role | Name | Date |
+| --- | --- | --- |
+| Managing Director | Fictional | Approved for portfolio scenario | 2026 |
+| Operations Manager | Fictional | Reviewed for portfolio scenario | 2026 |
+
+## 16. Portfolio Note
+This document is part of a fictional cyber security governance portfolio project. It demonstrates practical incident severity assessment for an Australian SME insurance brokerage scenario.
+
+This document is not legal advice, compliance advice, or a complete ISO/IEC 27001 implementation.
