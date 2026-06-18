@@ -61,3 +61,100 @@ The current security maturity is assessed as developing.
 | Incident response | Incident response is informal. | Documented incident response plan and severity matrix. |
 | Supplier security | Suppliers are used but not consistently reviewed. | Supplier security checklist and annual critical supplier review. |
 | Backup and recovery | Some recovery options exist but testing is limited. | Documented backup ownership and annual recovery testing. |
+
+## 5. Governance Improvements Completed
+The following governance artefacts were developed as part of this project:
+
+| Artefact | Purpose |
+| --- | --- |
+| Business Security Context | Defines the company scenario, technology environment, data types, and project scope. |
+| Information Security Governance Charter | Defines security ownership, decision-making, risk ownership, reporting, and review cycle. |
+| Roles and Responsibilities Matrix | Defines RACI responsibilities for security governance activities. |
+| Information Asset Register | Identifies key systems, data types, owners, classifications, and criticality. |
+| Cyber Risk Register | Records key cyber risks, likelihood, impact, controls, treatment actions, and owners. |
+| Information Security Policy | Establishes the parent security policy. |
+| Access Control Policy | Defines user access, privileged access, access reviews, and joiner/mover/leaver process. |
+| Acceptable Use Policy | Defines secure and acceptable use of systems, devices, email, internet, and cloud tools. |
+| Password and MFA Policy | Defines authentication requirements for business and privileged accounts. |
+| Data Classification Policy | Defines Public, Internal, Confidential, and Restricted data handling requirements. |
+| Backup and Recovery Policy | Defines backup ownership, recovery expectations, testing, and ransomware considerations. |
+| Incident Response Plan | Defines reporting, triage, containment, recovery, communication, and lessons learned. |
+| Incident Severity Matrix | Supports consistent incident prioritisation and escalation. |
+| Supplier Security Review Checklist | Supports review of outsourced IT, SaaS, CRM, website hosting, and other suppliers. |
+
+These documents provide a practical foundation for security governance in a small insurance brokerage environment.
+
+## 6. Priority Recommendations
+The following recommendations should be prioritised.
+
+### Priority 1: Enforce MFA on Critical Systems
+MFA should be enabled for Microsoft 365, insurance CRM, Xero, WordPress administrator accounts, remote access, password managers, and privileged administrator accounts.
+
+Expected benefit:
+- Reduces likelihood of account compromise.
+- Reduces business email compromise risk.
+- Improves protection for customer, policy, and finance information.
+
+### Priority 2: Complete Access Reviews
+HarbourShield should perform six-monthly access reviews for key systems.
+
+Systems to review:
+- Microsoft 365.
+- SharePoint and OneDrive.
+- Insurance CRM.
+- Xero.
+- WordPress.
+- Insurer portals.
+- Password manager.
+- Outsourced IT administrator access.
+
+Expected benefit:
+- Removes unnecessary access.
+- Reduces former employee and excessive permission risks.
+- Improves system owner accountability.
+
+### Priority 3: Improve Backup and Recovery Assurance
+Backup and recovery arrangements should be confirmed and tested for critical systems.
+
+Focus areas:
+- CRM recovery options.
+- Microsoft 365 retention and recovery.
+- SharePoint and OneDrive version history.
+- Xero recovery and export options.
+- WordPress backup restore.
+- Recovery testing records.
+
+Expected benefit:
+- Improves resilience against ransomware, accidental deletion, and supplier outages.
+- Reduces operational disruption.
+
+### Priority 4: Formalise Incident Response
+The Incident Response Plan and Incident Severity Matrix should be communicated to staff and tested using a simple tabletop exercise.
+
+Suggested tabletop scenarios:
+- Broker mailbox compromise.
+- Customer document sent to wrong recipient.
+- Ransomware affecting shared files.
+- Supplier breach notification.
+- Fraudulent bank detail change request.
+
+Expected benefit:
+- Improves response speed.
+- Reduces confusion during incidents.
+- Supports better decision-making and escalation.
+
+### Priority 5: Review Critical Suppliers
+Critical suppliers should be reviewed using the Supplier Security Review Checklist.
+
+Priority suppliers:
+- Outsourced IT provider.
+- Insurance CRM vendor.
+- Microsoft 365 environment.
+- Xero.
+- WordPress hosting provider.
+- Insurer portals.
+
+Expected benefit:
+- Improves visibility of third-party risk.
+- Clarifies supplier recovery and incident notification responsibilities.
+- Reduces dependency risk.
