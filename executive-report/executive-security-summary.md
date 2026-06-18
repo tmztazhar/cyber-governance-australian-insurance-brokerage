@@ -158,3 +158,72 @@ Expected benefit:
 - Improves visibility of third-party risk.
 - Clarifies supplier recovery and incident notification responsibilities.
 - Reduces dependency risk.
+
+## 7. Suggested 90-Day Security Improvement Roadmap
+
+| Timeframe | Action | Owner |
+| --- | --- | --- |
+| Days 1-5 | Approve governance charter and policy pack. | Managing Director |
+| Days 1-30 | Confirm MFA status for critical systems. | Operations Manager / Outsourced IT Provider |
+| Days 1-30 | Complete initial access review for Microsoft 365, CRM, Xero, and WordPress. | Operations Manager / System Owners |
+| Days 30-45 | Validate asset register and assign owners for all key systems. | Operations Manager |
+| Days 30-60 | Review backup and recovery options for critical systems. | Operations Manager / Outsourced IT Provider |
+| Days 45-60 | Conduct supplier security review for outsourced IT provider and CRM vendor. | Operations Manager |
+| Days 60-75 | Run incident response tabletop exercise. | Operations Manager |
+| Days 75-90 | Update cyber risk register and treatment plan based on findings. | Operations Manager |
+| Days 75-90 | Present security progress update to Managing Director. | Operations Manager |
+
+## 8. Suggested Security Metrics
+The Managing Director should receive a quarterly security update using simple business-level metrics.
+
+| Metric | Target |
+| --- | --- |
+| Critical systems with MFA enabled | 100% where supported |
+| High and critical cyber risks open | Trending downward |
+| Access reviews completed | Every six months |
+| Critical suppliers reviewed | At least annually |
+| Recovery tests completed | At least annually for critical systems |
+| Security incidents recorded | 100% of reported incidents |
+| High and critical incidents with post-incident review | 100% |
+| Employees completing security awareness | 100% annually |
+| Former employee access removed | Promptly after termination |
+
+## 9. Business Benefits
+The completed framework provides the following business benefits:
+
+| Benefit| Explanation |
+| --- | --- |
+| Stronger customer trust | Better protection of customer, policy, and claims information. |
+| Better accountability | Clear owners for security decisions, risks, assets, and incidents. |
+| Reduced account compromise risk | Stronger access control, MFA, and password requirements. |
+| Improved incident readiness | Clear response steps and escalation paths. |
+| Better supplier visibility | Supplier checklist supports third-party risk review. |
+| Improved resilience | Backup and recovery expectations reduce disruption. |
+| Practical compliance support | Documentation supports privacy, governance, and cyber resilience expectations. |
+| Scalable security foundation | The framework can mature as the business grows. |
+
+## 10. Key Decisions Required
+The following decisions should be made by business leadership:
+
+| Decision | Recommended Direction |
+| --- | --- |
+| Security governance approval | Approve the governance charter and policy pack. |
+| MFA enforcement | Require MFA for all critical systems where supported. |
+| Access review schedule | Perform access reviews every six months. |
+| Supplier review schedule | Review critical suppliers annually. |
+| Backup recovery testing | Test key recovery processes at least annually. |
+| Incident response testing | Run one tabletop exercise per year. |
+| Risk reporting | Receive quarterly cyber security updates. |
+| Risk acceptance | Managing Director to approve medium, high, and critical risk acceptance. |
+
+## 11. Executive Conclusion
+HarbourShield’s cyber security risks are manageable with practical governance, clear ownership, improved access control, stronger authentication, supplier review, backup assurance, and incident readiness.
+
+The most important immediate improvements are MFA enforcement, access reviews, backup and recovery validation, supplier security review, and incident response testing.
+
+This project provides a realistic SME cyber security governance framework that can be used as a foundation for ongoing improvement without requiring enterprise-level tools or a dedicated internal cyber security team.
+
+## 12. Portfolio Note
+This document is part of a fictional cyber security governance portfolio project. It demonstrates executive-level cyber security reporting, risk communication, governance planning, and SME security prioritisation for an Australian insurance brokerage scenario.
+
+This document is not legal advice, compliance advice, or a complete ISO/IEC 27001 implementation.
